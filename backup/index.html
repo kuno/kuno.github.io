@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" " http://www.w3c.org/TR/xhtml/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <title>Kuno</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Google meta tag -->
+    <meta name="google-site-verification" content="rkasHFn3_wz-1ZN1vj1gZdTqIz8YNHH861awGEmSdKA" />
+    <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Neucha&subset=latin" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica&subset=latin" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light" rel="stylesheet" type="text/css" />
+    <style media="screen">
+      /* Font face */
+      body {
+        position: absolute;
+        overflow: auto;
+        width: auto;
+        min-width: 1600px;
+        height: auto;
+        background: #302B21 url(http://lh3.ggpht.com/_AI5pwg4bALY/TJ70sWgb1SI/AAAAAAAAAJk/xix70y09yY4/d/BG_body) top center fixed no-repeat;
+        color: #454545;
+        font-family: 'Droid Serif', Arial, Verdana, sans-serif;
+      }
+
+      a { 
+        text-decoration: none;
+        color: #9a0009;
+      }
+
+      img {
+        border: none;
+      }
+
+      #container {
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      #header {
+        background: url(http://lh6.ggpht.com/_AI5pwg4bALY/TGdVItYYGCI/AAAAAAAAAJA/Y3GGbjeS3ns/d/%2Fhome%2Fkuno%2FDesktop%2Fhead_horizoner.png) 0px 130px no-repeat;
+        margin-top: 30px;
+        z-index: 3;
+      }
+
+      #switcher {
+        position: absolute;
+        min-width: 381px;
+        min-height: 180px;
+        margin: 0;
+        background: url(http://lh4.ggpht.com/_AI5pwg4bALY/TGZqPzjux-I/AAAAAAAAAHU/ey7SuPQ0qZs/d/BG_switcher.png) no-repeat 0px 55px;
+        top: 36px;
+        left: 1100px;
+      }
+
+      #works {
+        position: absolute;
+        top: 10px;
+        margin-left: 20px;
+      }
+
+      #gongzuo {
+        position: absolute;
+        top: 10px;
+        margin-left: 250px;
+      }
+
+      #lang-english {
+        position: absolute;
+        top: 15px;
+        margin-left: 20px;
+      }
+
+      #lang-chinese {
+        position: absolute;
+        top: 10px;
+        margin-left: 250px;
+      }
+
+      #works:hover, #gongzuo:hover, #lang-english:hover, #lang-chinese:hover {
+        margin-top: -3px;
+      }
+
+      #content {
+        margin-top: -60px;
+        font-size: 1.5em;
+        margin-bottom: 85px;
+      }
+
+      #projects {
+        margin-left: 48px;
+        margin-bottom: -120px;
+        width: 1400px;
+        height: 720px;
+        background: url(http://lh4.ggpht.com/_AI5pwg4bALY/TGZxuknn5xI/AAAAAAAAAHw/nuI0mebtiEw/BG_projects.png) no-repeat;
+        color: #9a0009;
+        text-align: center;
+        font-size: 1.8em;
+      }
+
+      a.project {
+        position: relative;
+        top: 20%;
+        font-family: 'Lobster';
+        font-size: 1.4em;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #666666;
+      }
+
+      a.project:hover {
+      }
+
+      #intro {
+        position: relative;
+        top: 60px;
+        left: 30px;
+        height: 550px;
+        width: auto;
+        font-size: 1.5em;
+        display: block;
+      }
+
+      #arrow{
+        position: absolute;
+        left: 424px;
+        top: 50px;
+        bottom: 1%;
+      }
+
+      #uparrow:hover {
+        margin-top: -10px;
+      }
+
+      #downarrow:hover {
+        margin-top: 10px;
+      }
+
+      .skill {
+        color: #507E8A;
+        font-family: Vollkorn;
+        font-size: 1em;
+        font-weight: bold;
+      }
+
+      .chinese {
+        font-weight: normal;
+        font-size: 1.1em;
+      }
+
+      .english{
+        font-family: 'IM Fell DW Pica', 'Neucha';
+        font-size: 1.1em;
+      }
+
+
+      #hello {
+        height: 500px;
+        width: 425px;
+      }
+
+      #skills {
+        position: relative;
+        top: 380px;
+        height: auto;
+        width: 325px;
+        margin-top: -880px;
+        margin-left: 555px;
+      }
+
+      #skills p {
+        text-decoration: none;
+        margin-top: 0px;
+        padding-top: 20px;
+      }
+
+      #skills p:hover {
+        background: url(http://lh5.ggpht.com/_AI5pwg4bALY/TGZlt-zvfYI/AAAAAAAAAGQ/jJBXt8oRaD0/gou.png) 68% 100% no-repeat;  
+      }
+
+      #contact {
+        position: relative;
+        top: -150px;
+        right: 300px;
+        height: 500px;
+        width: 425px;
+        float: right;
+        clear: right;
+
+      }
+
+      #contact p {
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        margin-left: 60px;
+      }
+
+      #english-contact, #chinese-contact {
+        position: relative;
+        top: -10px;
+        left: 100px;
+      }
+
+      img#mail {
+        position: relative;
+        top: 54px;
+        left: 744px;
+      }
+
+      a#github {
+        position: relative;
+        top: 150px;
+        left: 100px;
+      }
+
+      #form-horizoner {
+        margin-top: -50px;
+      }
+
+      #form {
+        height: 440px;
+      }
+
+      #footer {
+        width: 900px;
+        height: 60px;
+        text-align: left;
+        display: inline;
+      }
+
+      #footer p {
+        position: relative;
+        top: -20px;
+        left: 68px;
+        font-family: 'Covered By Your Grace','Just Me Again Down Here', 'Josefin Sans Std Light';
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #454545;
+      }
+
+      #footer p a {
+        text-decoration: none;
+      }
+
+      /* jQuery class */
+      .go_right {
+        padding: 10px 120px 5px 0px;
+        background: url(http://lh6.ggpht.com/_AI5pwg4bALY/TQRghVJY2PI/AAAAAAAAAOI/v9lOLRsivHU/d/ra.png) no-repeat top right;
+      }
+
+      .go_left {
+        padding: 10px 0px 50px 115px;
+        background: url(http://lh5.ggpht.com/_AI5pwg4bALY/TQRghbVPfSI/AAAAAAAAAOE/FfBHC96J33g/d/la.png) no-repeat top left;
+      } 
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      "use strict";
+
+      $(document).ready(function() {
+          // Namespace based on the codename
+          var ALGAE = ALGAE || {};
+
+          /**
+           * Variables
+           */
+          ALGAE.delay     = 600;
+          ALGAE.smiling   = 800;
+          ALGAE.upArrow   = '<img src="http://lh4.ggpht.com/_AI5pwg4bALY/TGZnXzUGCsI/AAAAAAAAAG0/gZ66SLvON9Y/arrow.png" alt="uparrow" id="uparrow" />';
+          ALGAE.downArrow = '<img src="http://lh4.ggpht.com/_AI5pwg4bALY/TKLFF9TSzJI/AAAAAAAAAKk/Jh956rwcxBA/d/downarrow.png" alt="downarrow" id="downarrow" />';
+
+          /**
+           * Initialization
+           */
+          $('#works').hide(); 
+          $('.chinese').hide();
+          $('#gongzuo').hide();
+
+          /**
+           * Events
+           */
+          // When click the chinese botton
+          $('#lang-chinese').click(function() {
+              $('#projects').slideUp('slow', function() {
+                setTimeout(function() {
+                  $('#lang-chinese').fadeOut('fast', function() {
+                    $('#gongzuo').fadeIn('slow', function() { 
+                      $('#works').fadeOut('fast', function() {
+                        $('#lang-english').fadeIn('slow', function(){
+                          $('#github > img').attr('src', 'img/github-smile.png');
+                          });
+                        });
+                      });
+                    });
+                  }, ALGAE.delay);
+                $('.english').fadeOut('fast', function() {
+                  $('.chinese').fadeIn('slow', function() {
+                    $('#arrow').html(ALGAE.downArrow).attr('title', 'Back to Top');
+                    });
+                  });
+                });
+              });
+
+          // When click the english botton
+          $('#lang-english').click(function() {
+              $('#projects').slideUp('slow', function() {
+                setTimeout(function() {
+                  $('#lang-english').fadeOut('fast', function() {
+                    $('#works').fadeIn('slow', function() {
+                      $('#gongzuo').fadeOut('fast', function() {
+                        $('#lang-chinese').fadeIn('slow', function(){
+                          $('#github > img').attr('src', 'img/github-smile.png');
+                          });
+                        });
+                      });
+                    });
+                  }, ALGAE.delay);
+                $('.chinese').fadeOut('fast',function() {
+                  $('.english').fadeIn('slow', function() {
+                    $('#arrow').html(ALGAE.downArrow).attr('title', 'View My Projects');
+                    });
+                  });
+                });
+              });
+
+          // When click the works botton
+          $('#works').click(function() {
+              $('#projects').slideDown('slow', function() {
+                $('#works').fadeOut('fast', function() {
+                  $('#lang-english').fadeIn('slow', function() {
+                    $('#gongzuo').fadeOut('fast', function() {
+                      $('#lang-chinese').fadeIn('slow', function() {
+                        setTimeout(function() {
+                          $('#github > img').attr('src', 'img/github.png');
+                          }, ALGAE.smiling); 
+                        $('#arrow').html(ALGAE.upArrow).attr('title', 'View My Projects');
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+
+          // When click the gontzuo botton
+          $('#gongzuo').click(function() {
+              $('#projects').slideDown('slow', function() {
+                $('#gongzuo').fadeOut('fast', function() {
+                  $('#lang-chinese').fadeIn('slow', function() {
+                    $('#works').fadeOut('fast', function() {
+                      $('#lang-english').fadeIn('slow', function() {
+                        setTimeout(function() {
+                          $('#github > img').attr('src', 'img/github.png');
+                          }, ALGAE.smiling); 
+                        $('#arrow').html(ALGAE.upArrow).attr('title', 'Back to Top');
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+
+          // When click the down arrow
+          $('#arrow').click(function() {
+              $('#projects').slideDown('slow', function() {
+                $('#works').fadeOut('fast', function() {
+                  $('#lang-english').fadeIn('slow', function() {
+                    $('#gongzuo').fadeOut('fast', function() {
+                      $('#lang-chinese').fadeIn('slow', function() {
+                        $('#arrow').html(ALGAE.upArrow).attr('title', 'Back to Top');
+                        setTimeout(function() {
+                          $('#github > img').attr('src', 'img/github.png');
+                          }, ALGAE.smiling); 
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+
+          // When hove on the even proejct
+          $('.project:even').hover(
+              function() {
+              $(this).addClass('go_right');
+              },
+              function() {
+              $(this).removeClass('go_right');
+              }
+              );
+
+          // When hover on the odd project
+          $('.project:odd').hover(
+              function() {
+              $(this).addClass('go_left');
+              },
+              function() {
+              $(this).removeClass('go_left');
+              }
+              );
+
+          $('#github').hover(
+              function() {
+              $('#github > img').attr('src', 'img/github.png').attr('src', 'img/github-smile.png');
+              },
+              function() {
+              setTimeout(function() {
+                $('#github > img').attr('src', 'img/github.png');
+                }, ALGAE.smiling / 2);
+              }
+              );
+
+      });          
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <a href="." title="portifolio" id="portfolio"><img src="http://lh4.ggpht.com/_AI5pwg4bALY/TKAxYgWBMlI/AAAAAAAAAKc/ZJOl7wM3hCU/d/portfolio.png" alt="kunos portfolio page" id="logo"/></a>
+        <div id="switcher">
+          <a href="#"><img src="http://lh5.ggpht.com/_AI5pwg4bALY/TGZnYHRqlVI/AAAAAAAAAHA/6DR24-Vzb6w/gongzuo.png" alt="gongzuo" id="gongzuo" /></a>
+          <a href="#"><img src="http://lh3.ggpht.com/_AI5pwg4bALY/TGZqQP4oj_I/AAAAAAAAAHc/5dRhtkLY2q4/works.png" alt="works" id="works" /></a>
+          <a href="#"><img src="http://lh3.ggpht.com/_AI5pwg4bALY/TGZqP9mlkrI/AAAAAAAAAHY/yS5cYhaXcE8/english.png" alt="english"  id="lang-english" /></a>
+          <a href="#"><img src="http://lh4.ggpht.com/_AI5pwg4bALY/TGZqPlQnAzI/AAAAAAAAAHQ/8qcSeJ2yqe0/chinese.png" alt="chinese"  id="lang-chinese" /></a>
+        </div> <!-- switcher -->
+      </div> <!-- header -->
+      <div id="content">
+        <div id="projects">
+          <a class="project" title="虬桥社会福利院" href="http://www.qiuqiaofly.org">www.qiuqiaofly.org</a>
+          <br />
+          <a class="project" title="URL shorten service" href="http://ursongae.appspot.com">ursongae.appspot.com</a>
+          <br />
+          <a class="project" title="Health status about myself" href="http://statusongae.appspot.com">statusongae.appspot.com</a>
+          <br />
+          <a class="project" title="HTML5 technology musem" href="http://html5museum.appspot.com">html5museum.appspot.com</a>
+        </div> <!-- projects -->
+
+        <div id="intro">
+          <div id="hello">
+            <p id="english-hello" class="english">Hello, My Name is Kuno.I am a free lance developer based on Shanghai, China. Above is some of my works. Please feel free to visit them.</p>
+            <p id="chinese-hello" class="chinese">你好，我是kuno。我是一名生活在上海的独立开发者， 上面这些链接都是我过往的作品。如果你有兴趣，不妨点击去浏览一番。</p>
+            <p id="english-skills" class="english">I am familar with these technologiese. And like to learn more:</p>
+            <p id="chinese-skills" class="chinese">目前我基本掌握了下列的开发技术，并且有继续学习的动力:</p>
+          </div> <!-- hello -->
+          <a id="arrow" title="Back to Top" href="#"><img src="http://lh4.ggpht.com/_AI5pwg4bALY/TGZnXzUGCsI/AAAAAAAAAG0/gZ66SLvON9Y/arrow.png" alt="uparrow" id="uparrow" class="arrow" /></a>
+          <div id="skills">
+            <p><a class="skill" href="http://en.wikipedia.org/wiki/HTML5">HTML5</a></p>
+            <p><a class="skill" href="http://jquery.com">jQuery</a></p>
+            <p><a class="skill" href="http://nodejs.org">NodeJS</a></p>
+            <p><a class="skill" href="http://djangoproject.com">Django</a></p>  
+            <p><a class="skill" href="http://appengine.google.com">App Engine</a></p>
+          </div> <!-- skill -->
+          <div id="contact">
+            <p id="english-contact" class="english">If you are interesting in my works, please contact me with email.</p>
+            <p id="chinese-contact" class="chinese">如果你对我的工作感兴趣，或者有合作意向，请用下面的电邮我和联系。</p>
+          </div> <!-- contact -->
+          <img src="http://lh6.ggpht.com/_AI5pwg4bALY/TGZqQRJOGfI/AAAAAAAAAHg/kMQch6TZy7E/mail.png" id="mail" alt="mail" />
+          <a href="http://github.com/kuno" title="neokuno at github" id="github"><img src="img/github.png" alt="neokuno at github" /></a>
+        </div> <!-- intro -->
+      </div> <!-- content -->
+      <div id="form-horizoner"><img src="http://lh5.ggpht.com/_AI5pwg4bALY/TGZmUlZAJdI/AAAAAAAAAGo/Dfq4XWF-4Rw/form-horizoner.png" alt="form horiznoner" /></div>
+      <div id="form">
+      </div> <!-- form -->
+      <div id="footer-horizoner"><img src="http://lh4.ggpht.com/_AI5pwg4bALY/TGZnYMWFNMI/AAAAAAAAAHE/bu4HxC4AMiA/footer-horizoner.png" alt="footer horizoner" /></div>
+      <div id="footer">
+        <p>Powered by <a href="http://www.jquery.com">jquery</a> and <a href="http://code.google.com/appengine/">Google Appengine</a> | 
+        Designeb by<a href="."> kuno</a> | 
+        Reversion: rev20110129 |
+        Since 2010</p>
+      </div> <!-- footer -->
+    </div> <!-- Container -->
+  </body>
+</html>
