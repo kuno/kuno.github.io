@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Hello World!
+title: Who is kuno?
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
