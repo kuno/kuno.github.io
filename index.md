@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: index
 title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-
-<p>最新文章</p>
 
 <ul>
 
